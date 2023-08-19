@@ -12,7 +12,8 @@ class Teacher(Person):
 
     def display(self):
         print("Teacher was cloned:")
-        print(f"Teacher Name: {self._name}")
+        print("-------------------")
+        print(f"Name: {self._name}")
         print(f"Who Teaches: {self._course}\n")
 
     def get_name(self):

@@ -13,6 +13,7 @@ class Student(Person):
 
     def display(self):
         print("Student was cloned:")
+        print("-------------------")
         print(f"Student Name: {self._name}")
         print(f"Enrolled in: {self._teacher.get_course()}")
         print(f"Taught by: {self._teacher.get_name()}\n")
