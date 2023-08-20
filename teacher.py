@@ -2,6 +2,7 @@ import copy
 from person import Person
 
 
+# ConcretePrototype1
 class Teacher(Person):
     def __init__(self, name: str, course: str):
         self._name = name

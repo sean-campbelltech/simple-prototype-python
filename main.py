@@ -2,6 +2,7 @@ from teacher import Teacher
 from student import Student
 
 
+# Client
 def main():
     teacher = Teacher("Sean Campbell", "Creational Design Pattern in Python")
     teacherClone = teacher.clone()

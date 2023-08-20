@@ -3,6 +3,7 @@ from person import Person
 from teacher import Teacher
 
 
+# ConcretePrototype2
 class Student(Person):
     def __init__(self, name: str, teacher: Teacher):
         self._name = name

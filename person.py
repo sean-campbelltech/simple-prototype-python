@@ -1,6 +1,7 @@
 from abc import ABC, abstractmethod
 
 
+# Prototype
 class Person(ABC):
     @abstractmethod
     def clone(self):
