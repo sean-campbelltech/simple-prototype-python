@@ -5,7 +5,7 @@ from person import Person
 # ConcretePrototype1
 class Teacher(Person):
     def __init__(self, name: str, course: str):
-        self._name = name
+        super().__init__(name)
         self._course = course
 
     def clone(self):
@@ -16,12 +16,6 @@ class Teacher(Person):
         print("-------------------")
         print(f"Name: {self._name}")
         print(f"Who Teaches: {self._course}\n")
-
-    def get_name(self):
-        return self._name
-
-    def set_name(self, name: str):
-        self._name = name
 
     def get_course(self):
         return self._course
